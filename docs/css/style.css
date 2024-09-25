@@ -1,0 +1,62 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss ***!
+  \**************************************************************************************************************/
+body {
+  background-color: #e0f7fa;
+  color: #004d40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+#searchSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+#searchSection input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #00796b;
+  border-radius: 5px;
+}
+#searchSection button {
+  padding: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+#searchSection button:hover {
+  background-color: #004d40;
+}
+
+.weather-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forecast-day {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 100px;
+}

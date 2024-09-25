@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>天気予報</title>
+    <script defer="defer" src="js/index.js"></script><link href="css/style.css" rel="stylesheet"></head>
+    <body>
+        <div id="app">
+            <div id="searchSection">
+                <input type="text" id="cityInput" placeholder="都市名を入力">
+                <button id="searchButton">検索</button>
+                <button id="currentLocationButton">現在地の天気</button>
+            </div>
+            <div id="currentWeather" class="weather-card">
+                <h2 id="cityName"></h2>
+                <img id="weatherIcon" src="">
+                <p id="temperature"></p>
+                <p id="weatherDescription"></p>
+            </div>
+            <div id="fiveDayForecast" class="forecast"></div>
+        </div>
+    </body>
+</html>
